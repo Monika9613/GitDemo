@@ -33,6 +33,7 @@ public class ConsoleLogsCapture {
 		 for(LogEntry e : logs)//iterating through list and printing each log message
 		 {
 			 System.out.println(e.getMessage());  //Log4j
+			 System.out.println("true");
 			
 		 }
 		 

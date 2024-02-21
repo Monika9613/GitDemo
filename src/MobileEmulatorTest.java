@@ -28,6 +28,7 @@ public class MobileEmulatorTest {
 		
 		driver.findElement(By.linkText("Library")).click();
 		driver.close();
+		System.out.println("git");
 		//Network.getRequestPostData
 		
 	
