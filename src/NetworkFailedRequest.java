@@ -36,6 +36,7 @@ System.setProperty("webdriver.chrome.driver", "/Users/rahulshetty/Documents/chro
 		
 		driver.get("https://rahulshettyacademy.com/angularAppdemo/");
 		driver.findElement(By.cssSelector("button[routerlink*='library']")).click();
+		System.out.println("true");
 		
 		
 		

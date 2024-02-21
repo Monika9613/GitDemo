@@ -44,6 +44,7 @@ System.setProperty("webdriver.chrome.driver", "/Users/rahulshetty/Documents/chro
 		Thread.sleep(3000);
 		
 		System.out.println(driver.findElement(By.cssSelector("p")).getText());
+		System.out.println("git-test");
 		
 		
 		
